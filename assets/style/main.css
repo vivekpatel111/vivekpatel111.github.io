@@ -310,16 +310,15 @@ article {
 
 footer a {
     text-decoration: none;
-}
-
-footer a img {
-    width: 2vw;
+    font-size: 2.5vw;
     margin-right: 1vw;
-    margin-top: 3vw;
+    color: #adadad;
+    margin-top: 2vw;
 }
 
 @media screen and (max-width:600px) {
-    footer a img {
-        width: 5vw;
+    footer a {
+        font-size: 6vw;
+        margin-top: 3vw;
     }
 }
